@@ -315,14 +315,9 @@ input[type='checkbox']:checked + span {
   line-height: 0.9;
 }
 
-.content__video-card-thumbnail-container {
+.content__video-card-thumbnail {
   margin: auto 0;
+  object-fit: cover;
   inline-size: 194px;
   block-size: 103px;
-}
-
-.content__video-card-thumbnail {
-  object-fit: cover;
-  inline-size: 100%;
-  block-size: 100%;
 }
